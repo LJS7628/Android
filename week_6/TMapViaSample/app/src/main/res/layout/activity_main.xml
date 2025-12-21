@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="activity"
+            type="com.example.tmapviasample.MainActivity" />
+    </data>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tblInputContainer"
+        android:stretchColumns="0">
+        <TableRow>
+            <EditText
+                android:hint="출발지 입력"
+                android:textSize="23sp"
+                android:id="@+id/edtInputStartKeyword"/>
+            <Button
+                android:textSize="23sp"
+                android:text="검색"
+                android:id="@+id/btnSearchStart"
+                android:onClick="@{activity::btnSearchStart}"/>
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:hint="도착지 입력"
+                android:textSize="23sp"
+                android:id="@+id/edtInputEndKeyword"/>
+            <Button
+                android:textSize="23sp"
+                android:text="검색"
+                android:id="@+id/btnSearchEnd"
+                android:onClick="@{activity::btnSearchEnd}"/>
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/tblContainer">
+        <TableRow>
+            <Button
+                android:text="자동차 경로 요청"
+                android:textSize="23sp"
+                android:id="@+id/btnRequestCarPath"/>
+            <Button
+                android:text="보행자 경로 요청"
+                android:textSize="23sp"
+                android:id="@+id/btnRequestPedPath"
+                android:onClick="@{activity::requestPedPath}"/>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tblInputContainer"
+        android:layout_above="@id/tblContainer"
+        android:id="@+id/relMapView">
+
+    </RelativeLayout>
+
+</RelativeLayout>
+</layout>

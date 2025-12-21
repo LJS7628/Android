@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="게임 시작"
+        android:gravity="center"
+        android:textSize="28sp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시도 횟수 : 0"
+        android:textSize="24sp"
+        android:id="@+id/tvStatus"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:gravity="center"
+        android:textColor="#ff0000"
+        android:text="UP n DOWN"
+        android:id="@+id/tvUpDown"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정수를 입력하세요"
+        android:inputType="number"
+        android:textSize="28sp"
+        android:id="@+id/edtInputData"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="맞추기"
+        android:textSize="28sp"
+        android:id="@+id/btnChoose"/>
+
+</LinearLayout>

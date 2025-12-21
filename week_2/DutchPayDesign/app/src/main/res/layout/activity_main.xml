@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 최상위 레이아웃 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/main_red"
+    android:orientation="vertical">
+    <!-- 타이틀 영역 레이아웃-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DutchPay"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:textSize="28sp"
+            android:textColor="#ffffff"/>
+        <ImageButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/setting"
+            android:scaleType="fitCenter"
+            android:background="#00000000"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="16dp"/>
+
+
+    </RelativeLayout>
+    <!-- 결과가 보이는 레이아웃-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1600원"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_marginRight="16dp"
+            android:id="@+id/tvEach"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="각각 내야할 금액"
+            android:textSize="28sp"
+            android:layout_above="@id/tvEach"
+            android:layout_alignRight="@id/tvEach"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="16dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="마지막 한 명은 1800원 내야 합니다^^"
+            android:textSize="18sp"
+            android:layout_below="@id/tvEach"
+            android:layout_alignRight="@id/tvEach"
+            android:textColor="#ffffff"
+            android:layout_marginTop="16dp"/>
+
+    </RelativeLayout>
+    <!-- 사용자 입력 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <!-- 명을 입력받는 부분 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#484848"
+            android:layout_marginRight="120dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="명"
+                android:textSize="28sp"
+                android:textColor="#ec565f "
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/tvCountName"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textColor="#ffffff"
+                android:layout_toLeftOf="@id/tvCountName"
+                android:layout_centerVertical="true"
+                android:inputType="number"
+                android:layout_marginLeft="16dp"
+                android:background="#00000000"
+                android:gravity="right"/>
+        </RelativeLayout>
+        <!-- 나누기 버튼이 있는 부분 -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:background="#00000000"
+                android:src="@drawable/divide"
+                android:scaleType="fitCenter"
+                android:padding="16dp"/>
+
+        </RelativeLayout>
+        <!-- 원을 입력받는 부분-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#484848"
+            android:layout_marginLeft="120dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="원"
+                android:textSize="28sp"
+                android:textColor="#ec565f "
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:id="@+id/tvPayName"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:textColor="#ffffff"
+                android:layout_toLeftOf="@id/tvPayName"
+                android:layout_centerVertical="true"
+                android:inputType="number"
+                android:layout_marginLeft="16dp"
+                android:background="#00000000"
+                android:gravity="right"/>
+        </RelativeLayout>
+        <!-- 빈 여백 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

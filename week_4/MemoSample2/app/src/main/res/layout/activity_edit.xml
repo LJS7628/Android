@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="activity"
+            type="com.example.memosample2.EditActivity" />
+    </data>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".EditActivity">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:gravity="center|left"
+            android:hint="제목 입력"
+            android:id="@+id/edtInputTitle"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnEdit"
+            android:text="저장하기"
+            android:layout_alignParentBottom="true" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/edtInputTitle"
+            android:layout_above="@id/btnEdit"
+            android:textSize="23sp"
+            android:gravity="top|left"
+            android:hint="내용 입력"
+            android:id="@+id/edtInputContent"/>
+
+
+
+    </RelativeLayout>
+
+</layout>
