@@ -13,6 +13,11 @@ ___
 * 앱 및 게임 (계산기,더치페이,메모장,업다운게임) - (App_Game)
 
 ___
-### 카드 짝맞추기 게임
+### 카드 짝맞추기 게임 설명
+
+<img src="https://github.com/user-attachments/assets/be21d963-7fb3-4267-9354-79b9556a7976" width="70%" height="70%">
+<img src="https://github.com/user-attachments/assets/075ffa3a-96e9-4658-aa3a-40fee05554f0" width="70%" height="70%">
+<img src="https://github.com/user-attachments/assets/b9ec8773-d1b7-4f04-8e70-5f3b7ea83b7a" width="70%" height="70%">
+<img src="https://github.com/user-attachments/assets/b2a69e0c-db40-4d11-8d9f-998f89b03e43" width="70%" height="70%">
 
 ___
