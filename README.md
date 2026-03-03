@@ -10,7 +10,8 @@ ___
   - [기본](https://github.com/LJS7628/Android/tree/main/1_BasicUI/ViewSample/app/src/main)
   - [이미지](https://github.com/LJS7628/Android/tree/main/1_BasicUI/ImageViewSample/app/src/main)
   - [스크롤](https://github.com/LJS7628/Android/tree/main/1_BasicUI/ScrollViewSample/app/src/main)
-  - [리스트](https://github.com/LJS7628/Android/tree/main/1_BasicUI/SimpleListViewSample/app/src/main) 
+  - [리스트](https://github.com/LJS7628/Android/tree/main/1_BasicUI/SimpleListViewSample/app/src/main)
+    
 - **레이아웃 (Layout)**
   - [기본](https://github.com/LJS7628/Android/tree/main/2_Layout/LayoutSample/app/src/main)
   - [그래비티](https://github.com/LJS7628/Android/tree/main/2_Layout/GravitySample/app/src/main)
