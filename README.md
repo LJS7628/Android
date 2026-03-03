@@ -33,7 +33,7 @@ ___
 
 ___
 ### 카드 짝맞추기 게임 설명  
-[프로젝트 메인코드]()
+[프로젝트 메인코드](https://github.com/LJS7628/Android/tree/main/MyGame/app/src/main)
 
 <img src="https://github.com/user-attachments/assets/be21d963-7fb3-4267-9354-79b9556a7976" width="70%" height="70%">
 <img src="https://github.com/user-attachments/assets/075ffa3a-96e9-4658-aa3a-40fee05554f0" width="70%" height="70%">
