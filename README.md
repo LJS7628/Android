@@ -16,9 +16,19 @@ ___
   - [그래비티](https://github.com/LJS7628/Android/tree/main/2_Layout/GravitySample/app/src/main)
   - [테이블](https://github.com/LJS7628/Android/tree/main/2_Layout/TableLayoutSample/app/src/main)
   - [인플렉터](https://github.com/LJS7628/Android/tree/main/2_Layout/LayoutInflatorSample/app/src/main) 
-* 기능(로그인,버튼클릭,공유속성) - (Functionality)
-* 시스템 (http컨넥터,SKT-T-Map 사용, 스레드) - (System) 
-* 앱 및 게임 (계산기,더치페이,메모장,업다운게임) - (App_Game)
+- **기능 (Functionality)**
+  - [로그인](https://github.com/LJS7628/Android/tree/main/3_Functionality/LoginSample/app/src/main)
+  - [버튼클릭](https://github.com/LJS7628/Android/tree/main/3_Functionality/OnClickSample/app/src/main)
+  - [공유속성](https://github.com/LJS7628/Android/tree/main/3_Functionality/SharedPreferenceSample/app/src/main) 
+- **시스템 (System)** 
+  - [http컨넥터](https://github.com/LJS7628/Android/tree/main/4_System/HttpConnectionSample/app/src/main)
+  - [SKT-T-Map 사용](https://github.com/LJS7628/Android/tree/main/4_System/TMapViaSample/app/src/main)
+  - [스레드](https://github.com/LJS7628/Android/tree/main/4_System/ThreadSample/app/src/main) 
+- **앱 및 게임 (App_Game)**
+  - [계산기](https://github.com/LJS7628/Android/tree/main/5_App_Game/CalculatorSample/app/src/main)
+  - [더치페이](https://github.com/LJS7628/Android/tree/main/5_App_Game/DutchPaySample/app/src/main)
+  - [메모장](https://github.com/LJS7628/Android/tree/main/5_App_Game/MemoSample2/app/src/main)
+  - [업다운게임](https://github.com/LJS7628/Android/tree/main/5_App_Game/UpDownGame/app/src/main)
 
 ___
 ### 카드 짝맞추기 게임 설명
