@@ -6,8 +6,16 @@
 ___
 
 ### Andriod 기초(Java)
-* 뷰(기본,이미지,스크롤,리스트) - (BasicUI)
-* 레이아웃(기본,그래비티,테이블,인플렉터) - (Layout)
+- **뷰 (BasicUI)**
+  - [기본](https://github.com/LJS7628/Android/tree/main/1_BasicUI/ViewSample/app/src/main)
+  - [이미지](https://github.com/LJS7628/Android/tree/main/1_BasicUI/ImageViewSample/app/src/main)
+  - [스크롤](https://github.com/LJS7628/Android/tree/main/1_BasicUI/ScrollViewSample/app/src/main)
+  - [리스트](https://github.com/LJS7628/Android/tree/main/1_BasicUI/SimpleListViewSample/app/src/main) 
+- **레이아웃 (Layout)**
+  - [기본](https://github.com/LJS7628/Android/tree/main/2_Layout/LayoutSample/app/src/main)
+  - [그래비티](https://github.com/LJS7628/Android/tree/main/2_Layout/GravitySample/app/src/main)
+  - [테이블](https://github.com/LJS7628/Android/tree/main/2_Layout/TableLayoutSample/app/src/main)
+  - [인플렉터](https://github.com/LJS7628/Android/tree/main/2_Layout/LayoutInflatorSample/app/src/main) 
 * 기능(로그인,버튼클릭,공유속성) - (Functionality)
 * 시스템 (http컨넥터,SKT-T-Map 사용, 스레드) - (System) 
 * 앱 및 게임 (계산기,더치페이,메모장,업다운게임) - (App_Game)
